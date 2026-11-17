@@ -1,0 +1,258 @@
+{
+  "@@locale": "en",
+  "appName": "Recall",
+  "welcomeTitle": "Study smarter for exam day",
+  "welcomeBody": "Make flashcards, flip through them, and let missed cards come back sooner. We’ll plan a little each day until your exam.",
+  "getStarted": "Get started",
+  "sampleQuestionLabel": "QUESTION",
+  "sampleSubject": "History",
+  "sampleQuestion": "In what year did the French Revolution begin?",
+  "stepOfTotal": "Step {step} of {total}",
+  "@stepOfTotal": {
+    "placeholders": {
+      "step": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "back": "Back",
+  "examSetupTitle": "What are you studying for?",
+  "examSetupSubtitle": "We’ll count down and spread your cards across the days left.",
+  "examNameLabel": "Exam name",
+  "examNameHint": "e.g. Biology Final",
+  "examDateLabel": "Exam date",
+  "previousMonth": "Previous month",
+  "nextMonth": "Next month",
+  "examCountdown": "{date} · {days, plural, zero{today} one{1 day to go} other{{days} days to go}}",
+  "@examCountdown": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "continueLabel": "Continue",
+  "goalTitle": "Pick a daily goal",
+  "goalSubtitle": "How many cards a day feels doable? You can change this any time.",
+  "goalLight": "Light",
+  "goalSteady": "Steady",
+  "goalFocused": "Focused",
+  "goalIntense": "Intense",
+  "goalMinutes": "About {minutes} min a day",
+  "@goalMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "recommended": "Recommended",
+  "goalSummaryReviews": "{count, plural, one{1 review} other{{count} reviews}}",
+  "@goalSummaryReviews": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "goalSummary": "About {reviews} before your {exam} on {date}.",
+  "@goalSummary": {
+    "placeholders": {
+      "reviews": {
+        "type": "String"
+      },
+      "exam": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "startLearning": "Start learning",
+  "saveError": "Couldn’t save your settings. Please try again.",
+  "homePlaceholder": "Preparing for {exam}",
+  "@homePlaceholder": {
+    "placeholders": {
+      "exam": {
+        "type": "String"
+      }
+    }
+  },
+  "greetingMorning": "Good morning",
+  "greetingAfternoon": "Good afternoon",
+  "greetingEvening": "Good evening",
+  "greetingWithName": "{greeting}, {name}",
+  "@greetingWithName": {
+    "placeholders": {
+      "greeting": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeWelcome": "Welcome",
+  "homeWelcomeNamed": "Welcome, {name}",
+  "@homeWelcomeNamed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeDate": "{weekday}, {date}",
+  "@homeDate": {
+    "placeholders": {
+      "weekday": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "countdownLabel": "{exam} · {date}",
+  "@countdownLabel": {
+    "placeholders": {
+      "exam": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "daysToGoUnit": "{days, plural, one{day to go} other{days to go}}",
+  "@daysToGoUnit": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "examDayToday": "Exam day — good luck",
+  "examPassedTitle": "Your exam date has passed",
+  "setNewDate": "Set a new date",
+  "planSummary": "Plan {percent}% done · {status}",
+  "@planSummary": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "planStatusDone": "today’s goal met",
+  "planStatusOnTrack": "on track",
+  "planStatusBehind": "a little behind",
+  "dailyPlanLink": "Daily plan",
+  "emptyCountdownHint": "Add a deck and we’ll build your daily plan.",
+  "dueTodayLabel": "Due today",
+  "streakLabel": "Streak",
+  "cardsUnit": "{count, plural, one{card} other{cards}}",
+  "@cardsUnit": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "daysUnit": "{count, plural, one{day} other{days}}",
+  "@daysUnit": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dueBreakdown": "{reviews} reviews · {fresh} new · ~{minutes} min",
+  "@dueBreakdown": {
+    "placeholders": {
+      "reviews": {
+        "type": "int"
+      },
+      "fresh": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "allCaughtUp": "All caught up",
+  "yourDecks": "Your decks",
+  "seeAll": "See all",
+  "deckCardCount": "{count, plural, one{1 card} other{{count} cards}}",
+  "@deckCardCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deckDueCount": "{due} due",
+  "@deckDueCount": {
+    "placeholders": {
+      "due": {
+        "type": "int"
+      }
+    }
+  },
+  "deckTileSemantics": "{name}, {cards}, {due}",
+  "@deckTileSemantics": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "cards": {
+        "type": "String"
+      },
+      "due": {
+        "type": "String"
+      }
+    }
+  },
+  "startStudying": "{count, plural, one{Start studying · 1 card} other{Start studying · {count} cards}}",
+  "@startStudying": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "nothingDueButton": "All caught up for today",
+  "emptyDecksTitle": "No decks yet",
+  "emptyDecksBody": "Make one deck per subject — like Cell Biology or WWI Causes. Start with 10–20 cards; you can add more later.",
+  "createFirstDeck": "Create your first deck",
+  "navHome": "Home",
+  "navDecks": "Decks",
+  "navStats": "Stats",
+  "navSettings": "Settings",
+  "comingSoon": "Coming soon",
+  "studyTitle": "Study",
+  "planTitle": "Daily plan",
+  "deckEditTitle": "New deck",
+  "deckDetailTitle": "Deck",
+  "errorGeneric": "Something went wrong. Please try again.",
+  "retry": "Try again",
+  "userNameLabel": "Your name (optional)",
+  "userNameHint": "e.g. Amira",
+  "weekStreakSemantics": "This week: {done} of 7 days studied",
+  "@weekStreakSemantics": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      }
+    }
+  }
+}

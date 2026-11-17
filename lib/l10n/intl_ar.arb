@@ -1,0 +1,258 @@
+{
+  "@@locale": "ar",
+  "appName": "ريكول",
+  "welcomeTitle": "ذاكر بذكاء ليوم الامتحان",
+  "welcomeBody": "أنشئ بطاقات، اقلبها، ودع البطاقات التي أخطأت فيها تعود إليك أسرع. سنخطط لك القليل كل يوم حتى موعد امتحانك.",
+  "getStarted": "ابدأ الآن",
+  "sampleQuestionLabel": "سؤال",
+  "sampleSubject": "التاريخ",
+  "sampleQuestion": "في أي عام بدأت الثورة الفرنسية؟",
+  "stepOfTotal": "الخطوة {step} من {total}",
+  "@stepOfTotal": {
+    "placeholders": {
+      "step": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "back": "رجوع",
+  "examSetupTitle": "لأي امتحان تستعد؟",
+  "examSetupSubtitle": "سنعدّ الأيام تنازليًا ونوزّع بطاقاتك على الأيام المتبقية.",
+  "examNameLabel": "اسم الامتحان",
+  "examNameHint": "مثال: امتحان الأحياء النهائي",
+  "examDateLabel": "تاريخ الامتحان",
+  "previousMonth": "الشهر السابق",
+  "nextMonth": "الشهر التالي",
+  "examCountdown": "{date} · {days, plural, zero{اليوم} one{باقٍ يوم واحد} two{باقٍ يومان} few{باقٍ {days} أيام} many{باقٍ {days} يومًا} other{باقٍ {days} يوم}}",
+  "@examCountdown": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "continueLabel": "متابعة",
+  "goalTitle": "اختر هدفك اليومي",
+  "goalSubtitle": "كم بطاقة في اليوم تراها مناسبة؟ يمكنك تغيير ذلك في أي وقت.",
+  "goalLight": "خفيف",
+  "goalSteady": "متوازن",
+  "goalFocused": "مركّز",
+  "goalIntense": "مكثّف",
+  "goalMinutes": "{minutes, plural, few{حوالي {minutes} دقائق يوميًا} many{حوالي {minutes} دقيقة يوميًا} other{حوالي {minutes} دقيقة يوميًا}}",
+  "@goalMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "recommended": "موصى به",
+  "goalSummaryReviews": "{count, plural, zero{لا مراجعات} one{مراجعة واحدة} two{مراجعتان} few{{count} مراجعات} many{{count} مراجعة} other{{count} مراجعة}}",
+  "@goalSummaryReviews": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "goalSummary": "حوالي {reviews} قبل {exam} في {date}.",
+  "@goalSummary": {
+    "placeholders": {
+      "reviews": {
+        "type": "String"
+      },
+      "exam": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "startLearning": "ابدأ التعلّم",
+  "saveError": "تعذّر حفظ إعداداتك. حاول مرة أخرى.",
+  "homePlaceholder": "تستعد لـ {exam}",
+  "@homePlaceholder": {
+    "placeholders": {
+      "exam": {
+        "type": "String"
+      }
+    }
+  },
+  "greetingMorning": "صباح الخير",
+  "greetingAfternoon": "مساء الخير",
+  "greetingEvening": "مساء الخير",
+  "greetingWithName": "{greeting}، {name}",
+  "@greetingWithName": {
+    "placeholders": {
+      "greeting": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeWelcome": "أهلًا بك",
+  "homeWelcomeNamed": "أهلًا، {name}",
+  "@homeWelcomeNamed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeDate": "{weekday}، {date}",
+  "@homeDate": {
+    "placeholders": {
+      "weekday": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "countdownLabel": "{exam} · {date}",
+  "@countdownLabel": {
+    "placeholders": {
+      "exam": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "daysToGoUnit": "{days, plural, zero{يوم متبقٍ} one{يوم متبقٍ} two{يومان متبقيان} few{أيام متبقية} many{يومًا متبقيًا} other{يوم متبقٍ}}",
+  "@daysToGoUnit": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "examDayToday": "يوم الامتحان — بالتوفيق",
+  "examPassedTitle": "انتهى موعد امتحانك",
+  "setNewDate": "حدّد تاريخًا جديدًا",
+  "planSummary": "الخطة {percent}% مكتملة · {status}",
+  "@planSummary": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "planStatusDone": "أنجزت هدف اليوم",
+  "planStatusOnTrack": "في المسار الصحيح",
+  "planStatusBehind": "متأخر قليلًا",
+  "dailyPlanLink": "الخطة اليومية",
+  "emptyCountdownHint": "أضف مجموعة وسنبني لك خطتك اليومية.",
+  "dueTodayLabel": "مستحقة اليوم",
+  "streakLabel": "أيام متتالية",
+  "cardsUnit": "{count, plural, zero{بطاقة} one{بطاقة} two{بطاقتان} few{بطاقات} many{بطاقة} other{بطاقة}}",
+  "@cardsUnit": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "daysUnit": "{count, plural, zero{يوم} one{يوم} two{يومان} few{أيام} many{يومًا} other{يوم}}",
+  "@daysUnit": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dueBreakdown": "مراجعة: {reviews} · جديدة: {fresh} · ~{minutes} د",
+  "@dueBreakdown": {
+    "placeholders": {
+      "reviews": {
+        "type": "int"
+      },
+      "fresh": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "allCaughtUp": "لا شيء مستحق",
+  "yourDecks": "مجموعاتك",
+  "seeAll": "عرض الكل",
+  "deckCardCount": "{count, plural, zero{لا بطاقات} one{بطاقة واحدة} two{بطاقتان} few{{count} بطاقات} many{{count} بطاقة} other{{count} بطاقة}}",
+  "@deckCardCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deckDueCount": "{due} مستحقة",
+  "@deckDueCount": {
+    "placeholders": {
+      "due": {
+        "type": "int"
+      }
+    }
+  },
+  "deckTileSemantics": "{name}، {cards}، {due}",
+  "@deckTileSemantics": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "cards": {
+        "type": "String"
+      },
+      "due": {
+        "type": "String"
+      }
+    }
+  },
+  "startStudying": "{count, plural, one{ابدأ المذاكرة · بطاقة واحدة} two{ابدأ المذاكرة · بطاقتان} few{ابدأ المذاكرة · {count} بطاقات} many{ابدأ المذاكرة · {count} بطاقة} other{ابدأ المذاكرة · {count} بطاقة}}",
+  "@startStudying": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "nothingDueButton": "أنهيت مراجعة اليوم",
+  "emptyDecksTitle": "لا توجد مجموعات بعد",
+  "emptyDecksBody": "أنشئ مجموعة لكل مادة — مثل علم الخلية أو أسباب الحرب العالمية الأولى. ابدأ بـ 10–20 بطاقة وأضف المزيد لاحقًا.",
+  "createFirstDeck": "أنشئ مجموعتك الأولى",
+  "navHome": "الرئيسية",
+  "navDecks": "المجموعات",
+  "navStats": "الإحصاءات",
+  "navSettings": "الإعدادات",
+  "comingSoon": "قريبًا",
+  "studyTitle": "المذاكرة",
+  "planTitle": "الخطة اليومية",
+  "deckEditTitle": "مجموعة جديدة",
+  "deckDetailTitle": "المجموعة",
+  "errorGeneric": "حدث خطأ ما. حاول مرة أخرى.",
+  "retry": "إعادة المحاولة",
+  "userNameLabel": "اسمك (اختياري)",
+  "userNameHint": "مثال: أمل",
+  "weekStreakSemantics": "هذا الأسبوع: {done} من 7 أيام مذاكرة",
+  "@weekStreakSemantics": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      }
+    }
+  }
+}
